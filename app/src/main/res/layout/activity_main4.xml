@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="5dp"
+    android:background="#EBEBEB"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="250dp"
+            android:src="@drawable/pan"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El pan"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="250dp"
+            android:src="@drawable/manzana"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La manzana"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="250dp"
+            android:src="@drawable/nino"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El niño"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="250dp"
+            android:src="@drawable/agua"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El agua"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</GridLayout>
